@@ -1,0 +1,14 @@
+*.class
+gen
+*/gen
+
+
+# eclipse files #
+.classpath
+.project
+.settings
+bin
+*/.project
+*/.settings
+*/.classpath
+*/bin

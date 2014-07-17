@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdsReporting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vendors">Vendors</string>
+    <string name="title_activity_placement_list">PlacementListActivity</string>
+    <string name="title_activity_placement_details">PlacementDetailsActivity</string>
+    <string name="totalFallout">Total Fallout</string>
+    <string name="totalUnsold">Total Unsold</string>
+    <string name="vendors">Vendors</string>
+    <string name="trend">Trends</string>
+    <string name="title_activity_trend">TrendActivity</string>
+
+</resources>
