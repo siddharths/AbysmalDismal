@@ -3,6 +3,8 @@ package com.yahoo.ads.reporting;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.yahoo.ads.reporting.util.StackedBarChart;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -55,7 +57,10 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		Intent intent;
 		switch (v.getId()) {
 		case R.id.button1:
-			intent = new Intent(this, TrendActivity.class);
+		//	intent = new Intent(this, TrendActivity.class);
+		//	startActivity(intent);
+			
+			intent = new StackedBarChart().execute(this);
 			startActivity(intent);
 			break;
 		case R.id.button2:
