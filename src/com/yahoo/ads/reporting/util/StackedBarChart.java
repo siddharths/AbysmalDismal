@@ -65,8 +65,8 @@ public class StackedBarChart extends AbstractDemoChart {
         
     int[] colors = new int[] { Color.YELLOW, Color.RED, Color.GREEN, Color.MAGENTA};
     XYMultipleSeriesRenderer renderer = buildBarRenderer(colors);
-    setChartSettings(renderer, "Monthly sales in the last 2 years", "Month", "Units sold", 0.5,
-        12.5, 0, 8000, Color.GRAY, Color.LTGRAY);
+    setChartSettings(renderer, "Monthly sales in the last 2 years", "Month", "Units sold", 0,
+        8, 0, 8000, Color.GRAY, Color.LTGRAY);
     renderer.getSeriesRendererAt(0).setDisplayChartValues(true);
     renderer.getSeriesRendererAt(1).setDisplayChartValues(true);
     renderer.setXLabels(7);

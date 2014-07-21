@@ -38,6 +38,8 @@
             android:name="com.yahoo.ads.reporting.TrendActivity"
             android:label="@string/title_activity_trend" >
         </activity>
+        
+        <activity android:name="org.achartengine.GraphicalActivity" />
     </application>
 
 </manifest>
