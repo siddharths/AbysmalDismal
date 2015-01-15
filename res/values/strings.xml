@@ -13,4 +13,7 @@
     <string name="trend">Trends</string>
     <string name="title_activity_trend">TrendActivity</string>
 
+    <string name="vendor">vendor</string>
+    <string name="fallout">Fallout</string>
+    <string name="percent">Percent</string>
 </resources>
